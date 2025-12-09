@@ -1,0 +1,115 @@
+{
+  "study_title": "Professional Integration of AI Tools in Daily Work",
+  "research_goals": [
+    "Understand how professionals integrate AI tools into their daily work",
+    "Identify pain points and satisfactions with current AI tools",
+    "Explore concerns about AI's impact on their profession"
+  ],
+  "target_duration_minutes": 10,
+  "sections": [
+    {
+      "name": "Opening & Context",
+      "purpose": "Build rapport, obtain consent, and establish participant's AI usage baseline",
+      "questions": [
+        {
+          "id": "Q1",
+          "text": "Thanks for participating today. This conversation is about your real experiences using AI tools at work - there are no right or wrong answers, just your honest perspective. First, could you briefly tell me about your role and which AI tools you use regularly?",
+          "purpose": "Establish context and confirm participant eligibility",
+          "probes": [
+            "How often would you say you use these tools?",
+            "Which tool do you find yourself reaching for most often?"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Daily Integration Patterns",
+      "purpose": "Understand concrete usage patterns and integration behaviors",
+      "questions": [
+        {
+          "id": "Q2",
+          "text": "Walk me through a typical workday - when and how do AI tools fit into your actual workflow?",
+          "purpose": "Capture real integration patterns and usage contexts",
+          "probes": [
+            "Can you give me a specific example from this week?",
+            "What triggers you to reach for an AI tool versus doing something manually?"
+          ]
+        },
+        {
+          "id": "Q3",
+          "text": "Describe a recent task where an AI tool worked really well for you.",
+          "purpose": "Identify satisfaction drivers and successful use cases",
+          "probes": [
+            "What made that experience particularly good?",
+            "How did it change how you approached that type of work?"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Challenges & Pain Points",
+      "purpose": "Surface practical frustrations and limitations",
+      "questions": [
+        {
+          "id": "Q4",
+          "text": "Tell me about a time when an AI tool didn't work as you expected or caused you frustration.",
+          "purpose": "Understand pain points and failure modes",
+          "probes": [
+            "How did you handle that situation?",
+            "What would have made that experience better?"
+          ]
+        },
+        {
+          "id": "Q5",
+          "text": "Are there tasks in your work where you specifically choose NOT to use AI? What are those and why?",
+          "purpose": "Identify trust boundaries and task-specific concerns",
+          "probes": [
+            "What makes those tasks different?",
+            "Have you ever tried AI for those tasks and decided against it?"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Professional Impact & Skills",
+      "purpose": "Explore tensions around skill development and professional identity",
+      "questions": [
+        {
+          "id": "Q6",
+          "text": "How has using AI tools changed the way you think about your professional skills?",
+          "purpose": "Surface skill-related tensions and concerns",
+          "probes": [
+            "Do you worry about losing any particular skills?",
+            "Have you found yourself developing any new skills because of AI?"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Closing",
+      "purpose": "Capture any additional insights and wrap up respectfully",
+      "questions": [
+        {
+          "id": "Q7",
+          "text": "Is there anything else about your experience with AI tools at work that you think would be important for me to understand?",
+          "purpose": "Allow participant to surface any uncovered topics",
+          "probes": [
+            "Any advice you'd give to someone just starting to use AI tools?",
+            "Anything you wish AI tools could do that they can't do now?"
+          ]
+        }
+      ]
+    }
+  ],
+  "interviewer_guidance": {
+    "tone": "Conversational and curious, like a colleague interested in learning from their experience. Avoid jargon or academic language.",
+    "pacing": "Move efficiently but don't rush. Spend more time on questions that generate rich, specific examples. Aim for 1-2 minutes per main question.",
+    "sensitive_topics": [
+      "Job security fears",
+      "Feeling replaced by AI",
+      "Admitting mistakes or poor performance"
+    ],
+    "when_to_probe_deeper": "When participants give specific, concrete examples or mention unexpected behaviors. When they hint at tensions or conflicts in their usage.",
+    "when_to_move_on": "If participant gives abstract/philosophical answers, gently redirect to concrete examples. If they seem to have exhausted their examples on a topic, move forward to stay within time limit."
+  }
+}
