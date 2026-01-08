@@ -7,6 +7,11 @@ set -e
 
 PROJECT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
+# Load .env file if it exists
+if [ -f "$PROJECT_DIR/.env" ]; then
+    export $(grep -v '^#' "$PROJECT_DIR/.env" | xargs)
+fi
+
 echo "==================================="
 echo "  Anthropic Interviewer"
 echo "==================================="
